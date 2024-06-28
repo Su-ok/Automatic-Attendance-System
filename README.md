@@ -1,15 +1,16 @@
-# Automatic-Attendance-System
-Automatic Attendance System using Face Recognition
 # Automatic Attendance System using Face Recognition
 
-1. Installation of the required module: Tkinter, PIL, mysql.connector, OpenCV.
-2. Creation of login page(login.py), register page(register.py) and Main Attendance System page(main.py).
-3. Creation of Student Details Page(student.py), making connection of MySQL database with the python file and storing details of all the enrolled students.
-4. All the images for creating the pages are taken from the “Images” folder.
-5. Inside the student.py file, we will be taking photos samples using Face detection(with the help of an XML file, “haarcascade_frontalface_default.xml”), generating data sets, storing it into a separate file(or folder), “data”, and redirecting the stored photo samples into the Photos tab from the main page.
-6. Training the stored datasets in Train Data Set page(train.py), using the Cascade Classifier and saving the trained datasets in an XML file, “classifier.xml”.
-7. In our project, Face Recognition is done by using the Local Binary Pattern Histograms, i.e. LBPH algorithm, making use of the predict variable, to predict the trained images/datasets, and confidence variable, to measure the distance(or similarity) of the image captured with the closest histogram/stored images.
-   In this way, we will be performing Face Recognition in Face Recognition page(face_recognition.py), by making use of the trained datasets(from classifier.xml) in order to recognize the enrolled student, displaying some information about the student during VideoCapture, and automatically updating their presence in a csv file, “suchir.csv”.
-8. In the Attendance System page(attendance.py), we will be using the csv file, “suchir.csv”, to import the attendance and export it into the main csv attendance file, “attendance.csv”, to finally mark the attendance of the student for the particular day.
-9. Additional information has been put in two buttons, help desk(help.py) and developer(developer.py) which can be accessed from the Main Attendance System page.
-10. Lastly, by clicking on the Exit button, the Main Attendance System page will be closed.
+1. **Modules**: Required modules include Tkinter, PIL, mysql.connector, and OpenCV.
+2. **Pages**: Includes login (`login.py`), register (`register.py`), and main attendance system (`main.py`).
+3. **Database**: Connects MySQL with `student.py` to store student details.
+4. **Images**: Uses images from the "Images" folder for interface design.
+5. **Face Detection**: Implements face detection using `haarcascade_frontalface_default.xml` to capture and store student photos in the "data" folder.
+6. **Training**: Trains datasets using `train.py` and saves them in `classifier.xml` using the Cascade Classifier.
+7. **Face Recognition**: Utilizes LBPH algorithm in `face_recognition.py` to recognize enrolled students, update attendance in `suchir.csv`, and display student information during VideoCapture.
+8. **Attendance Management**: Manages attendance using `attendance.py`, importing from `suchir.csv` and exporting to `attendance.csv`.
+9. **Additional Features**: Includes help desk (`help.py`) and developer information (`developer.py`) accessible from the main attendance system page.
+10. **Exit**: Closes the main attendance system page upon clicking the Exit button.
+
+
+## **NOte**
+- Transferred files from master to main on 28-06-2024
