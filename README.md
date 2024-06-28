@@ -1,4 +1,6 @@
-# Automatic-Attendance-System
+# NOte:
+- Can refer to main branch or [here](https://github.com/Su-ok/Automatic-Attendance-System) for better understanding of the project
+
 # Automatic Attendance System using Face Recognition
 
 1. Installation of the required module: Tkinter, PIL, mysql.connector, OpenCV.
