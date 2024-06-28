@@ -1,5 +1,5 @@
 # NOte:
-- Can refer to main branch or [here](https://github.com/Su-ok/Automatic-Attendance-System) for better understanding of the project
+- Should refer to main branch or [here](https://github.com/Su-ok/Automatic-Attendance-System) for better understanding of the project
 
 # Automatic Attendance System using Face Recognition
 
